@@ -1,0 +1,18 @@
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 136px;
+  height: 136px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.cell:nth-child(3n) {
+  border-right: none;
+}
+
+.cell:nth-child(n + 7) {
+  border-bottom: none;
+}
